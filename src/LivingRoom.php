@@ -1,7 +1,5 @@
 <?php
-namespace tests;
-
-use src\MyJsonSerializer;
+namespace src;
 
 class LivingRoom extends MyJsonSerializer
 {

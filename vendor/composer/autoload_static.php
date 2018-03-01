@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit1732cea6a685f50feaf08f20eb90da94
 {
     public static $prefixLengthsPsr4 = array (
+        's' => 
+        array (
+            'src\\' => 4,
+        ),
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
@@ -14,6 +18,10 @@ class ComposerStaticInit1732cea6a685f50feaf08f20eb90da94
         'W' => 
         array (
             'Webmozart\\Assert\\' => 17,
+        ),
+        'T' => 
+        array (
+            'Test\\' => 5,
         ),
         'S' => 
         array (
@@ -26,6 +34,10 @@ class ComposerStaticInit1732cea6a685f50feaf08f20eb90da94
     );
 
     public static $prefixDirsPsr4 = array (
+        'src\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
@@ -35,6 +47,10 @@ class ComposerStaticInit1732cea6a685f50feaf08f20eb90da94
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Test\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
         ),
         'Symfony\\Component\\Yaml\\' => 
         array (
@@ -60,7 +76,6 @@ class ComposerStaticInit1732cea6a685f50feaf08f20eb90da94
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
         'File_Iterator_Factory' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Factory.php',
-        'JsonSerializerTest' => __DIR__ . '/../..' . '/tests/JsonSerializerTest.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/ForwardCompatibility/Assert.php',
         'PHPUnit\\Framework\\AssertionFailedError' => __DIR__ . '/..' . '/phpunit/phpunit/src/ForwardCompatibility/AssertionFailedError.php',
         'PHPUnit\\Framework\\BaseTestListener' => __DIR__ . '/..' . '/phpunit/phpunit/src/ForwardCompatibility/BaseTestListener.php',
@@ -502,10 +517,7 @@ class ComposerStaticInit1732cea6a685f50feaf08f20eb90da94
         'SebastianBergmann\\RecursionContext\\Exception' => __DIR__ . '/..' . '/sebastian/recursion-context/src/Exception.php',
         'SebastianBergmann\\RecursionContext\\InvalidArgumentException' => __DIR__ . '/..' . '/sebastian/recursion-context/src/InvalidArgumentException.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
-        'SerializerInterface' => __DIR__ . '/../..' . '/src/SerializerInterface.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
-        'src\\MyJsonSerializer' => __DIR__ . '/../..' . '/src/MyJsonSerializer.php',
-        'tests\\LivingRoom' => __DIR__ . '/../..' . '/tests/LivingRoom.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
